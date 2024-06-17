@@ -1,0 +1,4 @@
+*.eth:443 {
+	reverse_proxy :8080
+	tls certs/_wildcard.eth.pem  certs/_wildcard.eth-key.pem 
+}
